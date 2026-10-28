@@ -1,0 +1,29 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+build/
+
+# Downloaded dataset and generated index (do not commit)
+data/raw/
+data/index/
+data/cache/
+*.sqlite
+*.db
+*.parquet
+
+# Logs and local files
+*.log
+.DS_Store
+Thumbs.db
