@@ -381,7 +381,7 @@ export const AssistantView: React.FC<AssistantViewProps> = ({
               <div className="flex justify-start">
                 <div className="p-4 rounded-2xl bg-white border border-slate-200 rounded-bl-none shadow-sm flex items-center space-x-3 text-slate-600 text-sm">
                   <Loader2 className="w-4 h-4 text-sky-600 animate-spin" />
-                  <span>Searching local Indian legal dataset & synthesizing response...</span>
+                  <span>{language === 'te' ? 'సమాధానం రూపొందించబడుతోంది...' : 'Generating response...'}</span>
                 </div>
               </div>
             )}
